@@ -52,7 +52,7 @@ public class Metodos {
     }
     
     public void mostrarCirculo(){
-        JOptionPane.showMessageDialog(null, "El área del círculo es igual a " + (pi*(Math.pow(radio, 2))) + "cm^2");
+        JOptionPane.showMessageDialog(null, "El área del círculo es igual a " + (Pi*(Math.pow(radio, 2))) + "cm^2");
     }
     
 }
