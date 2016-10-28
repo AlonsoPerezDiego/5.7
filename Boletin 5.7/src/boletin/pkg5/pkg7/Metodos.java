@@ -4,10 +4,10 @@ import javax.swing.JOptionPane;
 
 public class Metodos {
     
-    private double lado, base, altura, radio, pi;
+    private double lado, base, altura, radio;
+    private final double Pi = 3.1415926535897932384626433832795;
     
     public Metodos(){
-        pi = 3.1415926535897932384626433832795;
     }
     
     public Metodos(double l, double b, double a, double r){
