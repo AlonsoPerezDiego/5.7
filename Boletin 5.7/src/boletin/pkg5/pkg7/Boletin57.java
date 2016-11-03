@@ -76,6 +76,7 @@ public class Boletin57 {
             JOptionPane.showMessageDialog(null, "Adios.");
         }
         else{
+            //Cuando son demasiados fallos para ser casualidad...
             JOptionPane.showMessageDialog(null, "¡Ya me cansé!\n¡Adios!");
         }
     }
