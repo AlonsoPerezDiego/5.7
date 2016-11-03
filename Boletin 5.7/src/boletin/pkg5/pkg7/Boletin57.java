@@ -14,7 +14,7 @@ public class Boletin57 {
         if(op<1|op>2){
            op = Integer.parseInt(JOptionPane.showInputDialog("Te has equivocado. \nPara calcular un área teclea '1'. \n Para cerrar el programa teclea '2'."));
            fallos = fallos + 1;
-           if (fallos!=6){
+           if (fallos!=7){
                op = Integer.parseInt(JOptionPane.showInputDialog("Te has equivocado. \nPara calcular un área teclea '1'. \n Para cerrar el programa teclea '2'."));
                fallos = fallos + 1;
            }
@@ -45,7 +45,7 @@ public class Boletin57 {
                 default:  System.out.println("Opción incorrecta");
             }
         
-            while((opciones<1|opciones>3)&&fallos<=5){
+            while((opciones<1|opciones>3)&&fallos<=6){
            
                 opciones = Integer.parseInt(JOptionPane.showInputDialog("Para calcular el área de un cuadrado teclea '1'. \n Para calcular el área de un triagulo teclea '2'. \n Y para calcular el área de un circulo teclea '3'. \n ¡No teclees otra cosa!"));
             
@@ -66,13 +66,13 @@ public class Boletin57 {
                     default: System.out.println("¡Opción incorrecta otra vez! \n ¡Introducelo bien de una vez!");
                              fallos = fallos + 1;
                              System.out.println(fallos);
-                             if(fallos==5){
+                             if(fallos==6){
                              op=2;
                              }
                 }
             }
     }//mucho rollo para muy poco
-        if(fallos!=6){
+        if(fallos!=7){
             System.out.println("Adios.");
         }
         else{
