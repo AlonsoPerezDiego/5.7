@@ -30,7 +30,7 @@ public class Metodos {
     
     public void setTriangulo(){
        radio = Double.parseDouble(JOptionPane.showInputDialog("Introduce la base"));
-       altura = Double.parseDouble(JOptionPane.showInputDialog("Introduce la altura"));
+       altura = Double.parseDouble(JOptionPane.showInputDialog("Introduce la altura"));//aquí hace falta la segunda variable
        
        while(radio<=0|altura<=0){
            radio = Double.parseDouble(JOptionPane.showInputDialog("Introduce la base (mayor que 0)"));

@@ -73,11 +73,11 @@ public class Boletin57 {
             }
     }//mucho rollo para muy poco
         if(fallos!=7){
-            System.out.println("Adios.");
+            System.out.println("Adios.");//fin
         }
         else{
             //Demasiados fallos...
-            System.out.println("¡Ya me cansé!\n¡Adios!");
+            System.out.println("¡Ya me cansé!\n¡Adios!");//fin forzado
         }
     }
     
