@@ -71,7 +71,7 @@ public class Boletin57 {
                              }
                 }
             }
-    }
+    }//mucho rollo para muy poco
         if(fallos!=6){
             System.out.println("Adios.");
         }
