@@ -13,7 +13,7 @@ public class Metodos {
     public Metodos(double r, double a){
         
         radio = r;
-        altura = a;
+        altura = a;//solo está por la necesidad de una segunda variable en el triángulo
     }
     
     public void setCuadrado(){
