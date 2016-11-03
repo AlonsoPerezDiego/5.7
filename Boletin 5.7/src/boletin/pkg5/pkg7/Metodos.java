@@ -27,7 +27,7 @@ public class Metodos {
     }
     
     public void mostrarCuadrado(){
-        JOptionPane.showMessageDialog(null, "El área del cuadrado es igual a " + (Math.pow(lado, 2)) + "cm^2");
+        System.out.println( "El área del cuadrado es igual a " + (Math.pow(lado, 2)) + "cm^2");
     }
     
     public void setTriangulo(){
@@ -41,7 +41,7 @@ public class Metodos {
     }
     
     public void mostrarTriangulo(){
-        JOptionPane.showMessageDialog(null, "El área del triángulo es igual a " + (base*altura/2) + "cm^2");
+        System.out.println( "El área del triángulo es igual a " + (base*altura/2) + "cm^2");
     }
     
     public void setCirculo(){
@@ -52,7 +52,7 @@ public class Metodos {
     }
     
     public void mostrarCirculo(){
-        JOptionPane.showMessageDialog(null, "El área del círculo es igual a " + (Pi*(Math.pow(radio, 2))) + "cm^2");
+        System.out.println( "El área del círculo es igual a " + (Pi*(Math.pow(radio, 2))) + "cm^2");
     }
     
 }
