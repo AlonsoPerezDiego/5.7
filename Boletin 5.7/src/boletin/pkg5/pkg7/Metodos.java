@@ -4,44 +4,42 @@ import javax.swing.JOptionPane;
 
 public class Metodos {
     
-    private double lado, base, altura, radio;
+    private double radio, altura;
     private final double Pi = 3.1415926535897932384626433832795; //Constante
     
     public Metodos(){
     }
     
-    public Metodos(double l, double b, double a, double r){
+    public Metodos(double r, double a){
         
-        lado = l;
-        base = b;
-        altura = a;
         radio = r;
+        altura = a;
     }
     
     public void setCuadrado(){
-        lado = Double.parseDouble(JOptionPane.showInputDialog("Introduce el lado"));
+        radio = Double.parseDouble(JOptionPane.showInputDialog("Introduce el lado"));
         
-        while(lado<=0){
-            lado = Double.parseDouble(JOptionPane.showInputDialog("Introduce el lado (mayor que 0)"));
+        while(radio<=0){
+            radio = Double.parseDouble(JOptionPane.showInputDialog("Introduce el lado (mayor que 0)"));
         }
     }
     
     public void mostrarCuadrado(){
-        System.out.println( "El área del cuadrado es igual a " + (Math.pow(lado, 2)) + "cm^2");
+        System.out.println( "El área del cuadrado es igual a " + (Math.pow(radio, 2)) + "cm^2");
     }
     
     public void setTriangulo(){
-       base = Double.parseDouble(JOptionPane.showInputDialog("Introduce la base"));
+       radio = Double.parseDouble(JOptionPane.showInputDialog("Introduce la base"));
        altura = Double.parseDouble(JOptionPane.showInputDialog("Introduce la altura"));
        
-       while(base<=0|altura<=0){
-           base = Double.parseDouble(JOptionPane.showInputDialog("Introduce la base (mayor que 0)"));
+       while(radio<=0|altura<=0){
+           radio = Double.parseDouble(JOptionPane.showInputDialog("Introduce la base (mayor que 0)"));
            altura = Double.parseDouble(JOptionPane.showInputDialog("Introduce la altura (mayor que 0)"));  
        }
     }
     
     public void mostrarTriangulo(){
-        System.out.println( "El área del triángulo es igual a " + (base*altura/2) + "cm^2");
+        System.out.println( "El área del triángulo es igual a " + (radio*altura/2) + "cm^2");
     }
     
     public void setCirculo(){

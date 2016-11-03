@@ -10,7 +10,7 @@ public class Boletin57 {
     public static void main(String[] args) {
         
         int op = Integer.parseInt(JOptionPane.showInputDialog("Para calcular un área teclea '1'. \n Para cerrar el programa teclea '2'."));
-        int fallos = 0;
+        int fallos = 0;//variable para cuando se equivoque alguien
         if(op<1|op>2){
            op = Integer.parseInt(JOptionPane.showInputDialog("Te has equivocado. \nPara calcular un área teclea '1'. \n Para cerrar el programa teclea '2'."));
            fallos = fallos + 1;
