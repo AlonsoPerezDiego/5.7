@@ -76,6 +76,7 @@ public class Boletin57 {
             System.out.println("Adios.");
         }
         else{
+            //Demasiados fallos...
             System.out.println("¡Ya me cansé!\n¡Adios!");
         }
     }

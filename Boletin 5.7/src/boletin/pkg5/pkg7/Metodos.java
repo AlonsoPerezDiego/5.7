@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class Metodos {
     
     private double lado, base, altura, radio;
-    private final double Pi = 3.1415926535897932384626433832795;
+    private final double Pi = 3.1415926535897932384626433832795; //Constante
     
     public Metodos(){
     }
